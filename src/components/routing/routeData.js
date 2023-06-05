@@ -4,6 +4,7 @@ import { Coin } from './../pages/Coin';
 import { About } from './../pages/About';
 import { NotFound } from './../pages/NotFound';
 import { CryptPage } from './../pages/CryptPage';
+import { Trend } from './../pages/Trend';
 
 export const routeData = [
     {
@@ -25,6 +26,10 @@ export const routeData = [
             {
                 path : 'crypt',
                 element : <CryptPage />
+            },
+            {
+                path : 'trend',
+                element : <Trend />
             },
             {
                 path: '*',
