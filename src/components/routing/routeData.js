@@ -10,8 +10,16 @@ export const routeData = [
         element: <Layout />,
         children: [
             {
+                index: true,
+                element: <Home />,
+            },
+            {
                 path: 'about',
                 element: <About />,
+            },
+            {
+                path : 'coin/:coinName',
+                element : <Coin />,
             },
             {
                 path: '*',
